@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Where should I go?!</title>
+		<script src="js/d3.v3.min.js" charset="utf-8"></script>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="js/topojson.v1.min.js"></script>
+		<script src="js/brexodus.js"></script>
+		<script src="data/mesScores.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/brexodus.css"></link>
+
+	</head>
+<body>
+
+
+<table border=0 align="center">
+<tr>
+<td><svg width="180" height="120" id="climat">Climat</svg></td>
+
+<td valign="top" rowspan="10">
+<div id="laCarte"><h1>Regrexiter !!!<br>where should you go now?</h1></div>
+</td>
+
+<td><svg width="180" height="120" id="leDial4">ici</svg></td><tr>
+
+
+<tr><td><svg width="180" height="120" id="english">English</svg></td>
+<td><svg width="180" height="120" id="finance">Finance</svg></td></tr>
+
+<tr><td><svg width="180" height="120" id="leDial5">ici</svg></td>
+<td><svg width="180" height="120" id="leDial6">ici</svg></td></tr>
+
+<tr><td><svg width="180" height="120" id="leDial7">ici</svg></td>
+<td><svg width="180" height="120" id="leDial8">ici</svg></td></tr>
+
+<tr><td><svg width="180" height="120" id="leDial9">ici</svg></td>
+<td><svg width="180" height="120" id="leDial10">ici</svg></td></tr>
+
+</table>
+		
+<script>
+//Width and height
+
+reglette( "climat" )
+reglette( "english" )
+reglette( "finance" )
+for ( ii = 4 ; ii < 11 ; ii++ ) { 
+	reglette( "leDial"+ii)
+}
+afficheLaCarte() ;
+		
+		
+		</script>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+{
+"StoreVisitGraphCount": {
+    "list": [{
+        "count": 23,
+        "date": "01-2013"
+    }],
+    "parameters": {
+        "format": "m-Y",
+        "point": 10,
+        "type": "mo"
+    }
+   }
+}

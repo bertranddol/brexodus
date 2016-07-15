@@ -1,0 +1,204 @@
+body {
+	background-color: #ffffff;
+	font-family: sans-serif;
+    font-size: 12px;
+}
+
+strong {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+}
+
+em {
+	color: #666;
+	text-transform: uppercase;
+	font-style: normal;
+}
+a {
+	font-style: normal;
+	color: #dc6900;
+	font-weight: normal;
+	text-decoration: none;
+}
+#contentContainer {
+	width: 710px;
+	margin: 0 auto;
+}
+
+#svgContainer, #infoContainer {
+	float: left;
+}
+
+#svgContainer {
+	width: 400px;
+	clear: none;
+	margin: 0 10px 0 0;
+	position: relative;
+}
+
+#infoContainer {
+	width: 300px;
+	clear: right;
+	padding-top: 20px;
+	
+}
+
+#infoContainer p {
+	margin: 0 0 5px 0;
+	color: #999;
+}
+
+#title {
+	margin: 0 0 20px 0;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+#tooltip {
+	background-color: #eee;
+	border-left: 3px solid #dc6900;
+	padding: 5px 5px 1px 5px;
+}
+
+#intro {
+	margin: 20px 0;
+}
+#zoom {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: #eee;
+	border: 0.25px solid white;
+	
+}
+
+
+
+
+.dropdown-wrapper {
+    width: 160px;
+    padding: 5px;
+    margin: 0 0 20px 0;
+	position: relative;
+    background-color: #888;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+.dropdown-wrapper:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    margin-top: -6px;
+    border-width: 6px 0 6px 6px;
+    border-style: solid;
+    border-color: transparent #fff;    
+}
+
+.dropdown-wrapper .dropdown {
+	border-radius: 0 0 5px 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0; 
+	padding: 0;
+	margin: 0;
+   text-transform: none;
+    background: #fff;
+    font-weight: normal;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.dropdown-wrapper .dropdown li {
+    display: block;
+    text-decoration: none;
+    color: #888;
+    background-color: #eeeeee;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.dropdown-wrapper .dropdown li:hover {
+    background: #dddddd;
+}
+
+.dropdown-wrapper.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+    
+}
+
+.dropdown-wrapper.active:after {
+    border-color: #fff transparent;
+    border-width: 6px 6px 0 6px ;
+    margin-top: -3px;
+}
+
+// svg
+svg {
+	background-color: white;
+}
+
+h1 {
+	color: rgb(115, 115, 115);
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+#laCarte {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 2px rgb(217, 217, 217);
+}
+
+path:hover {
+	fill: rgba(8, 81, 156, 0.2);
+	cursor:pointer;
+}
+
+//
+.ticks {
+  font: 10px sans-serif;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+  stroke-linecap: round;
+}
+
+.track {
+  stroke: #000;
+  stroke-opacity: 0.3;
+  stroke-width: 10px;
+}
+
+.track-inset {
+  stroke: #ddd;
+  stroke-width: 8px;
+}
+
+.track-overlay {
+  pointer-events: stroke;
+  stroke-width: 50px;
+  cursor: crosshair;
+}
+
+.handle {
+  fill: #fff;
+  stroke: #000;
+  stroke-opacity: 0.5;
+  stroke-width: 1.25px;
+}
