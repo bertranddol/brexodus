@@ -1,6 +1,6 @@
 Dear Regrixter, 
 
-erexit means brexit.. oh well
+Brexit means brexit.. oh well
 
 This interactive map is to help you make a successfull choice of where to move to next...
 
@@ -16,3 +16,6 @@ You can combined those criteria to tailored the map to your needs and desires...
 Get ready for the Brexodus, this app is for you...
 
 disclaimer: the stats are real, the calculation are correct (to the best of our knowlegde) but the results are JUST FOR FUN, we won't accept any blame if you decide to leave the beautiful sunny english countryside and regret it ;=)
+
+
+![Robberies](https://github.com/bertranddol/brexodus/blob/master/screenshot/map1.png)
